@@ -1,0 +1,7 @@
+build --define darwinn_portable=1
+build --subcommands
+build --verbose_failures
+build --enable_platform_specific_config
+
+build --cxxopt=-std=c++17
+build --copt=-fvisibility=hidden
