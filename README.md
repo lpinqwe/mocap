@@ -21,3 +21,9 @@
 ```bash
 bazel run //demos/hello-cv-cpp:main
 ```
+
+### `hello-proto`
+
+```bash
+bazel run //demos/hello-proto:main
+```
