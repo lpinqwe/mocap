@@ -1,4 +1,4 @@
 .vscode
 .DS_Store
 /bazel-*
-/third_party/opencv
+/third_party/opencv_local

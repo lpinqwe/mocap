@@ -4,15 +4,11 @@
 
 1. [Bazel](https://bazel.build/)
 
-2. [OpenCV](https://opencv.org/)
+2. [Windows only] [OpenCV](https://opencv.org/)
 
     1. Follow the [instructions](https://docs.opencv.org/4.9.0/d7/d9f/tutorial_linux_install.html) to compile OpenCV from source.
 
-    2. Link the build directory to `third_party/opencv`:
-
-        ```bash
-        ln -s path/to/opencv third_party/opencv
-        ```
+    2. Copy the OpenCV install directory to `third_party/opencv_local`
 
 ## Demos
 
