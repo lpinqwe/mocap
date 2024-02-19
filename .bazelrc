@@ -5,3 +5,5 @@ build --enable_platform_specific_config
 
 build --cxxopt=-std=c++17
 build --copt=-fvisibility=hidden
+
+build:linux --noincompatible_sandbox_hermetic_tmp
